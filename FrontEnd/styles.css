@@ -1,0 +1,26 @@
+body{
+    background-color: pink; 
+}
+
+h1{
+    color: orange; 
+    background-color: blue;
+}
+p{
+    color: slateblue; 
+     
+}
+
+.container{
+   border-width: 5px;
+   border-style: solid; 
+   border-color: rgb(107, 52, 63); 
+   margin: 40px; /* = comment */
+   padding: 50px; 
+
+
+}
+
+#list{
+    font-size: 30px; 
+}
