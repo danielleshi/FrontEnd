@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Form</title>
+</head>
+<body>
+    <h3>Please enter the details for shipping</h3>
+    <div>
+        <label for="company">Company</label><br>
+        <input type="text" name="company" id="company">
+    </div>
+
+    <div>
+        <label for="name">Name</label><br>
+        <input type="text" name="name" id="name">
+    </div>
+    
+    <div>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email">
+    </div>
+
+    <div>
+        <label for="address">Address</label><br>
+        <input type="text" name="address" id="address">
+    </div>
+
+    <div>
+        <label for="city">City</label><br>
+        <input type="text" name="city" id="city">
+    </div>
+
+    <div>
+        <label for="state">State</label><br>
+        <input type="text" name="state" id="state">
+    </div>
+
+    <div>
+        <label for="zip">Zip</label><br>
+        <input type="number" name="zip" id="zip">
+    </div>
+
+    <br>
+
+    <div>
+        <label for="shipping">Shipping Type:</label>
+        <select name="shipping" id="shipping">
+            <option value="1">Standard</option>
+            <option value="2">Expedited</option>
+            <option value="3">Overnight</option>
+            <option value="4">Same Day</option>
+        </select>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="residential">Residential</label>
+        <input type="radio" name="residential" id="residential" value="Yes"/> Yes
+        <input type="radio" name="residential" id="residential" value="No"/> No
+    </div>
+
+    <br>
+
+    <div>
+        <label for="note">Special Note</label><br>
+        <textarea name="note" id="note" cols="30" rows="10"placeholder="Enter your name"></textarea>
+    </div>
+
+    <button type="submit">Submit</button>
+</body>
+</html>

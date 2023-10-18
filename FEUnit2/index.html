@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to Javascript</title>
+</head>
+<body id="colorDisplay">
+    <h1>Color Picker</h1> 
+    <input type="color" id="colorInput" >
+    <button id="applyColor">Apply Color</button>
+    <script>
+        const colorInput = document.getElementById("colorInput"); //color chosen is assigned to the variable 'colorInput'
+        const applyColorButton = document.getElementById("applyColor"); // button is assigned to a variable called 'applyColorButton'
+        const colorDisplay = document.getElementById("colorDisplay"); 
+        
+        applyColorButton.addEventListener("click", function func(){ // running a function on the button 
+            const selectedColor = colorInput.value; // const = constant, once you declare a variable you cant reassign 
+            colorDisplay.style.backgroundColor=selectedColor;
+        })
+    </script>
+</body>
+</html>

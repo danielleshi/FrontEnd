@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Fields</title>
+</head>
+<body>
+    <h3>Contact Form</h3>
+    <form>
+        <div>
+        <label for="name">Name</label><br>
+        <input type="text" name="name" id="name">
+    </div>
+    <div>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email">
+    </div>
+    <div>
+        <label for="message">Message</label><br>
+        <textarea name="message" id="message"></textarea>
+    </div>
+    <button type="submit">Submit</button>
+    </form>
+
+    <h3>Other form fields</h3>
+    <!-- passworld field -->
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+    </div>
+    <!-- date field -->
+    <div>
+        <label for="Date">Start Date:</label>
+        <input type="date" name="date" id="date">
+    </div>
+    <!-- time field -->
+    <div>
+        <label for="time">Start Time:</label>
+        <input type="time" name="time" id="time">
+    </div>
+    <!-- dropdown selection -->
+    <div>
+        <label for="quantity">Quantity:</label>
+        <select name="quantity" id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+    </div>
+    <!-- checkbox -->
+    <div>
+        <h3>What are you learning?</h3>
+        <input type="checkbox" name="html" id="html" value="html"> 
+        <label for="html">HTML</label><br>
+
+        <input type="checkbox" name="js" id="js" value="js"> 
+        <label for="js">Javascript</label><br>
+
+        <input type="checkbox" name="css" id="css" value="css">
+        <label for="css">CSS</label><br>
+    </div>
+
+    <div>
+        <label for="rate">Please rate your experience</label>
+        <input type="radio" name="rate" id="rate" value="Good"/> Good
+        <input type="radio" name="rate" id="rate" value="OK"/> OK
+        <input type="radio" name="rate" id="rate" value="Bad"/> Bad
+    </div>
+    <!-- color picker -->
+    <div>
+        <label for="color">Pick your color</label>
+        <input type="color" name="color" id="color">
+    </div>
+    
+
+</body>
+</html>

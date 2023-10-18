@@ -1,0 +1,81 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply styles to the header */
+  header {
+    background-color: #000; /* Dark black background */
+    color: #fff; /* Light text color */
+    padding: 20px;
+  }
+  
+  /* Apply styles to the navigation bar */
+  nav {
+    background-color: #ccc; /* Light gray background */
+    padding: 10px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex; /* Display navigation links as a row */
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000; /* Black text color */
+  }
+  
+  /* Apply styles to the search form */
+  nav form {
+    margin-left: auto; /* Push the search form to the right */
+  }
+  
+  nav input[type="search"] {
+    /* Style the search input as needed */
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 4px;
+  }
+  
+  nav input[type="submit"] {
+    /* Style the submit button as needed */
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Apply styles to the main content */
+  main {
+    display: flex;
+  }
+  
+  main article {
+    flex: 2; /* Main takes more space */
+    padding: 20px;
+  }
+  
+  main aside {
+    flex: 1; /* Aside takes less space */
+    background-color: #fff; /* White background */
+    padding: 20px;
+  }
+  
+  /* Apply styles to the footer */
+  footer {
+    background-color: #000; /* Dark black background */
+    color: #fff; /* Light text color */
+    text-align: center;
+    padding: 10px;
+  }
+  
