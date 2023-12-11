@@ -42,3 +42,8 @@ function printBye(func){
 }
 
 console.log(printBye(printHi));
+
+const multiply = (a, b) => a*b;
+console.log(multiple(2,3));
+
+console.log(multiple(3,3) === 9? "YAY" : "BOO");

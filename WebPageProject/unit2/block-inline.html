@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block and Inline Elements</title>
+
+<style>
+    *{
+        border: 2px orange solid; 
+    }
+    .inline-inside{
+        display: flex;
+        list-style: none;
+    }
+    span{
+        height: 200px; 
+    }
+    .block-span{
+        display: black; 
+    }
+    .inline-p{
+        display: inline;
+    }
+    .inline-in-out{
+        display: inline-flex;
+    }
+</style>
+</head>
+<body>
+    <p>This is a block element</p>
+    <p>The list below will be a block element. The item under the list they are also block elements. </p>
+    <ul>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ul>
+    <p>The next list will be block, but inside will be inline elements.</p>
+    <ul class="inline-inside">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ul>
+    <p class="inline-p">This paragraph has a <span>span turned to be a block</span>. and also another <span>span in normal flow</span>
+    </p>
+    <ul class="inline-in-out">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ul>
+    <p class="inline-p">Another one</p>
+</body>
+</html>

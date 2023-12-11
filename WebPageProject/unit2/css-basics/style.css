@@ -1,0 +1,33 @@
+p{
+    color: orange;
+}
+
+/*h1, li{
+    color:tomato;
+}*/
+
+li{
+    list-style-type: none;
+}
+
+.red-text{
+    color:red;
+}
+
+li.red-text{
+    font-style:italic; /*only targets red text that is part of a list */
+}
+li a{
+    color:green;
+}
+
+h2 + ul{
+    color:goldenrod
+}
+
+a:hover{
+    color:greenyellow;
+    font-weight:bold;
+    text-decoration: none; 
+
+}

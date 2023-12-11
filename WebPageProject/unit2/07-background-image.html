@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: flex; 
+        border: 1px solid black; 
+        padding: 10px; 
+    }
+    .box{
+        border: 1px solid black;
+        width: 200px;
+        height: 100px; 
+        margin: 10px;
+    }
+    .a{
+        background-image: url("img/heart.png");
+        background-repeat: no-repeat; /*background automically repeats itself if it is smaller than the box*/
+    }
+    .b{
+        background-image: url("img/brooklyn_bridge.jpg");
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box a"></div>
+        <div class="box b"></div>
+    </div>
+</body>
+</html>
